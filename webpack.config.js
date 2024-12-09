@@ -1,5 +1,5 @@
-const path = require('path');
 const { UserscriptPlugin } = require('webpack-userscript');
+const path = require('path');
 const Ajv = require('ajv');
 // const headers = require('./userscript-headers.json'); // Load static headers
 const fs = require('fs');
@@ -76,6 +76,10 @@ module.exports = {
                     },
                 },
             },
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader'],
+            }
         ],
     },
     plugins: [ new UserscriptPlugin({

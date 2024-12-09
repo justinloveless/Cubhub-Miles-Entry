@@ -1,10 +1,9 @@
 // ==UserScript==
-// @name My Userscript
-// @description A cool userscript
-// @version 1.0.0
-// @author Your Name
-// @match https://example.com/*
-// @grant GM_getValue
-// @grant GM_setValue
-// @updateURL https://raw.githubusercontent.com/justinloveless/TamperMonkeyTemplate/dist/script.user.js
+// @name Cubhub Miles Entry
+// @description Automates entering miles from Cubhub
+// @version 1.0.19
+// @author Justin Loveless
+// @match https://login.companymileage.com/*
+// @grant GM_addStyle
+// @updateURL https://raw.githubusercontent.com/justinloveless/Cubhub-Miles-Entry/dist/script.user.js
 // ==/UserScript==
