@@ -1,13 +1,12 @@
 {
-    "name": "My Userscript",
-    "description": "A cool userscript",
-    "updateURL": "https://raw.githubusercontent.com/justinloveless/TamperMonkeyTemplate/dist/script.user.js",
-    "author": "Your Name",
+    "name": "Cubhub Miles Entry",
+    "description": "Automates entering miles from Cubhub",
+    "updateURL": "https://raw.githubusercontent.com/justinloveless/Cubhub-Miles-Entry/dist/script.user.js",
+    "author": "Justin Loveless",
     "match": [
-        "https://example.com/*"
+        "https://login.companymileage.com/*"
     ],
     "grant": [
-        "GM_getValue",
-        "GM_setValue"
+        "GM_addStyle"
     ]
 }
